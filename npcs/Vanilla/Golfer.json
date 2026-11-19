@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Angler"],
+        ["Painter", "Zoologist", "Princess", "Villager (Male)", "Villager (Female)", "Guard (Lead)", "Guard (Iron)", "Guard (Copper)", "Guard (Tin)", "Guard (Wood)"],
+        "Others",
+        ["Pirate"],
+        ["Merchant"]
+    ],
+    "biome_priority": [
+        ["Forest"],
+        "Others",
+        ["Underground", "Savanna"]
+    ]
+}

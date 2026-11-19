@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Wizard"],
+        ["Stylist", "Princess"],
+        "Others",
+        ["Merchant"],
+        ["Goblin Tinkerer"]
+    ],
+    "biome_priority": [
+        ["Desert"],
+        "Others",
+        ["Jungle"]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Witch Doctor", "Farmer", "Rancher"],
+        ["Golfer", "Adventurer", "Forester", "Villager (Male)", "Villager (Female)", "Guard (Lead)", "Guard (Iron)", "Guard (Copper)", "Guard (Tin)", "Guard (Wood)", "Princess"],
+        "Others",
+        ["Angler", "Fisherman"],
+        ["Arms Dealer"]
+    ],
+    "biome_priority": [
+        ["Forest", "Savanna"],
+        "Others",
+        ["Desert", "Salt Flats"]
+    ]
+}

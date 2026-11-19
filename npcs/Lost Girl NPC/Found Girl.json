@@ -1,0 +1,15 @@
+{
+    "npc_priority": [
+        ["Dryad", "Princess", "Tax Collector"],
+        ["Party Girl", "Clothier", "Wizard", "Guide"],
+        "Others",
+        ["Demolitionist", "Goblin Tinkerer", "Angler"]
+    ],
+    "biome_priority": [
+        ["Forest", "Hallow"],
+        ["Snow", "Jungle"],
+        "Others",
+        ["Desert"],
+        ["Underground", "Corruption", "Crimson"]
+    ]
+}

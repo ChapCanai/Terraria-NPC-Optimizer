@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Trapper"],
+        ["Santa Claus", "Villager (Snow Male)", "Villager (Snow Female)", "Guard (Boreal)"],
+        "Others",
+        ["Cyborg"]
+    ],
+    "biome_priority": [
+        ["Snow"],
+        ["Ocean", "Forest"],
+        "Others",
+        ["Desert", "Jungle"]
+    ]
+}

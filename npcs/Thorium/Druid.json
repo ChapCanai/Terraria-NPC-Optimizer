@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Dryad", "Princess"],
+        "Others",
+        ["Demolitionist"],
+        ["Steampunker"]
+    ],
+    "biome_priority": [
+        ["Jungle"],
+        "Others",
+        ["Snow"]
+    ]
+}

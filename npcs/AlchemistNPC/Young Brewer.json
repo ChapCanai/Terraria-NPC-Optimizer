@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Brewer"],
+        ["Alchemist", "Princess"],
+        "Others",
+        ["Goblin Tinkerer"]
+    ],
+    "biome_priority": [
+        ["Forest"],
+        ["Desert"],
+        "Others",
+        ["Snow"]
+    ]
+}

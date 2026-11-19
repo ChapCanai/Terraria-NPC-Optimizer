@@ -1,0 +1,15 @@
+{
+    "npc_priority": [
+        ["Guide"],
+        ["Merchant", "Princess"],
+        "Others",
+        ["Wizard"],
+        ["Tax Collector"]
+    ],
+    "biome_priority": [
+        ["Forest"],
+        ["Hallow"],
+        "Others",
+        ["Underground"]
+    ]
+}

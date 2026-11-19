@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Zoologist", "Golfer"],
+        ["Spiritualist", "Princess"],
+        "Others",
+        ["Druid", "Dryad", "Angler"],
+        ["Nurse"]
+    ],
+    "biome_priority": [
+        ["Forest"],
+        "Others",
+        ["Ocean"]
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "npc_priority": [
+        ["Guard (Lead)", "Guard (Iron)"],
+        ["Merchant", "Guide", "Zoologist", "Golfer", "Farmer", "Forester", "Villager (Male)", "Villager (Female)"],
+        "Others"
+    ],
+    "biome_priority": [
+        ["Forest"],
+        "Others"
+    ]
+}

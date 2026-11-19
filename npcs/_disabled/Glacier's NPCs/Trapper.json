@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Fisherman (Ice)"],
+        ["Santa Claus", "Villager (Snow Male)", "Villager (Snow Female)", "Guard (Boreal)"],
+        "Others",
+        ["Cyborg"]
+    ],
+    "biome_priority": [
+        ["Snow"],
+        ["Forest", "Jungle"],
+        "Others",
+        ["Desert"]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Farmer", "Zoologist"],
+        ["Guide", "Merchant", "Golfer", "Villager (Male)", "Villager (Female)", "Guard (Wood)"],
+        "Others",
+        ["Cyborg"]
+    ],
+    "biome_priority": [
+        ["Forest"],
+        ["Desert"],
+        "Others",
+        ["Snow", "Jungle"]
+    ]
+}

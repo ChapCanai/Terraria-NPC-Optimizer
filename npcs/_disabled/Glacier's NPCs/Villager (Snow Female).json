@@ -1,0 +1,12 @@
+{
+    "npc_priority": [
+        ["Villager (Snow Male)"],
+        ["Lumberjack", "Mechanic", "Cyborg", "Santa Claus", "Trapper", "Fisherman (Ice)", "Guard (Wood)", "Guard (Boreal)", "Guard (Lead)", "Guard (Iron)"],
+        "Others"
+    ],
+    "biome_priority": [
+        ["Snow"],
+        ["Forest"],
+        "Others"
+    ]
+}

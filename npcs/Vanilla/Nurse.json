@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Arms Dealer"],
+        ["Wizard", "Princess"],
+        "Others",
+        ["Party Girl", "Dryad"],
+        ["Zoologist"]
+    ],
+    "biome_priority": [
+        ["Hallow"],
+        "Others",
+        ["Snow", "Salt Flats"]
+    ]
+}

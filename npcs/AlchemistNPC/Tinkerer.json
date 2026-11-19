@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Steampunker"],
+        ["Mechanic", "Princess"],
+        "Others",
+        ["Dye Trader"]
+    ],
+    "biome_priority": [
+        ["Snow"],
+        ["Underground"],
+        "Others",
+        ["Desert"]
+    ]
+}

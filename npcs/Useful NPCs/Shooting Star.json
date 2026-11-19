@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Truffle"],
+        ["Party Girl", "Princess"],
+        "Others",
+        ["Builder"]
+    ],
+    "biome_priority": [
+        ["Glowing Mushrooms"],
+        ["Hallow"],
+        "Others",
+        ["Jungle"]
+    ]
+}

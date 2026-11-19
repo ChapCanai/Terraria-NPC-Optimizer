@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Tavernkeep"],
+        ["Guide", "Stylist", "Princess"],
+        "Others",
+        ["Dye Trader"],
+        ["Desert Acolyte"]
+    ],
+    "biome_priority": [
+        ["Snow"],
+        "Others",
+        ["Forest"]
+    ]
+}

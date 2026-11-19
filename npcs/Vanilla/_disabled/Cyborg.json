@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Stylist", "Pirate", "Steampunker", "Princess"],
+        "Others",
+        ["Zoologist"],
+        ["Wizard"]
+    ],
+    "biome_priority": [
+        ["Snow"],
+        "Others",
+        ["Jungle"]
+    ]
+}

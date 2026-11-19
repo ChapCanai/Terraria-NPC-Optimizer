@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Angler", "Princess"],
+        "Others",
+        ["Truffle"],
+        ["Nurse"]
+    ],
+    "biome_priority": [
+        ["Forest"],
+        "Others",
+        ["Hallow"]
+    ]
+}

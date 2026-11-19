@@ -1,0 +1,12 @@
+{
+    "npc_priority": [
+        ["Guide"],
+        ["Dryad", "Fisherman", "Princess"],
+        "Others",
+        ["Clothier"],
+        ["Witch Doctor"]
+    ],
+    "biome_priority": [
+        ["Glowing Mushrooms"]
+    ]
+}

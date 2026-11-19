@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Young Brewer", "Brewer"],
+        ["Mechanic", "Princess"],
+        "Others"
+    ],
+    "biome_priority": [
+        ["Underground"],
+        ["Forest"],
+        "Others",
+        ["Snow"]
+    ]
+}

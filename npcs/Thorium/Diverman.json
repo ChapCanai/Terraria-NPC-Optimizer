@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Party Girl"],
+        ["Pirate", "Princess"],
+        "Others",
+        ["Angler"]
+    ],
+    "biome_priority": [
+        ["Ocean"],
+        "Others",
+        ["Desert"]
+    ]
+}

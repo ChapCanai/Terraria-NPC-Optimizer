@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Truffle"],
+        ["Tax Collector", "Princess"],
+        "Others",
+        ["Nurse"],
+        ["Mechanic"]
+    ],
+    "biome_priority": [
+        ["Underground"],
+        "Others",
+        ["Hallow"]
+    ]
+}

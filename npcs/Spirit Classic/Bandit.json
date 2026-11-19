@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Goblin Tinkerer"],
+        ["Adventurer", "Princess"],
+        "Others",
+        ["Demolitionist"],
+        ["Arms Dealer"]
+    ],
+    "biome_priority": [
+        ["Briar", "Jungle"],
+        "Others",
+        ["Desert"]
+    ]
+}

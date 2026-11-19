@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Santa Claus"],
+        ["Truffle", "Princess"],
+        "Others",
+        ["Angler"],
+        ["Cyborg"]
+    ],
+    "biome_priority": [
+        ["Glowing Mushrooms"],
+        "Others",
+        ["Underground"]
+    ]
+}

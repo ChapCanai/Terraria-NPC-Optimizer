@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Nurse"],
+        ["Steampunker", "Adventurer", "Princess", "Guard (Cactus)", "Villager (Desert Male)", "Villager (Desert Female)"],
+        "Others",
+        ["Golfer"],
+        ["Demolitionist", "Bandit", "Dealer"]
+    ],
+    "biome_priority": [
+        ["Desert", "Savanna"],
+        "Others",
+        ["Snow"]
+    ]
+}

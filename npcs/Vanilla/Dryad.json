@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Witch Doctor", "Truffle", "Princess"],
+        "Others",
+        ["Angler"],
+        ["Golfer"]
+    ],
+    "biome_priority": [
+        ["Jungle"],
+        "Others",
+        ["Desert", "Salt Flats"]
+    ]
+}

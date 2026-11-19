@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Dryad"],
+        ["Party Girl", "Princess"],
+        "Others",
+        ["Cyborg", "Truffle"]
+    ],
+    "biome_priority": [
+        ["Jungle", "Salt Flats", "Savanna"],
+        "Others",
+        ["Forest"]
+    ]
+}

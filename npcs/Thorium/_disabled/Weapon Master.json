@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Tax Collector"],
+        ["Goblin Tinkerer", "Witch Doctor", "Princess"],
+        "Others",
+        ["Deadbeat Zombie", "Guide"],
+        ["Spiritualist"]
+    ],
+    "biome_priority": [
+        ["Underground"],
+        "Others",
+        ["Hallow"]
+    ]
+}

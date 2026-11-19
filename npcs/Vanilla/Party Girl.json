@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Wizard", "Zoologist"],
+        ["Stylist", "Shooting Star", "Princess"],
+        "Others",
+        ["Merchant"],
+        ["Tax Collector"]
+    ],
+    "biome_priority": [
+        ["Hallow"],
+        "Others",
+        ["Underground"]
+    ]
+}

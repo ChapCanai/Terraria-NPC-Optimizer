@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Young Brewer"],
+        ["Alchemist", "Princess"],
+        "Others",
+        ["Witch Doctor"]
+    ],
+    "biome_priority": [
+        ["Forest"],
+        ["Jungle"],
+        "Others",
+        ["Snow"]
+    ]
+}

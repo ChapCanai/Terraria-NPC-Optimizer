@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Pirate"],
+        ["Bandit", "Princess"],
+        "Others",
+        ["Tax Collector"],
+        ["Angler"]
+    ],
+    "biome_priority": [
+        ["Forest"],
+        "Others",
+        ["Briar"]
+    ]
+}

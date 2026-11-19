@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Guide"],
+        ["Clothier", "Princess"],
+        "Others",
+        ["Spiritualist"]
+    ],
+    "biome_priority": [
+        ["Forest"],
+        "Others",
+        ["Snow"]
+    ]
+}

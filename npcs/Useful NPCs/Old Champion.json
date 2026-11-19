@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Dryad", "Princess"],
+        "Others",
+        ["Tax Collector"],
+        ["Angler"]
+    ],
+    "biome_priority": [
+        ["Forest", "Desert", "Jungle"],
+        "Others",
+        ["Hallow", "Glowing Mushrooms"]
+    ]
+}

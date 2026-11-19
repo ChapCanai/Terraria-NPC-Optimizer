@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Merchant"],
+        ["Party Girl", "Guard (Boreal)", "Princess"],
+        "Others",
+        ["Demolitionist", "Mechanic"],
+        ["Santa Claus"]
+    ],
+    "biome_priority": [
+        ["Snow", "Salt Flats"],
+        "Others",
+        ["Hallow"]
+    ]
+}

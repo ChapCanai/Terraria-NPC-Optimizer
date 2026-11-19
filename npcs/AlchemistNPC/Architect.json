@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Painter"],
+        ["Goblin Tinkerer", "Princess"],
+        "Others",
+        ["Tax Collector"]
+    ],
+    "biome_priority": [
+        ["Jungle"],
+        ["Ocean"],
+        "Others",
+        ["Snow"]
+    ]
+}

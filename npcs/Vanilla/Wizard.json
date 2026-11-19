@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Golfer"],
+        ["Merchant", "Gambler", "Enchanter", "Princess"],
+        "Others",
+        ["Witch Doctor"],
+        ["Cyborg"]
+    ],
+    "biome_priority": [
+        ["Hallow", "Salt Flats"],
+        "Others",
+        ["Ocean"]
+    ]
+}

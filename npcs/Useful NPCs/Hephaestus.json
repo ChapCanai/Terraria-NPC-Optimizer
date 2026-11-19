@@ -1,0 +1,9 @@
+{
+    "npc_priority": [
+        ["Princess"],
+        "Others"
+    ],
+    "biome_priority": [
+        "Others"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "npc_priority": [
+        ["Guard (Lead)", "Guard (Iron)"],
+        ["Mechanic", "Tax Collector", "Cyborg", "Santa Claus", "Trapper", "Fisherman (Ice)", "Lumberjack", "Villager (Snow Male)", "Villager (Snow Female)"],
+        "Others"
+    ],
+    "biome_priority": [
+        ["Snow"],
+        "Others"
+    ]
+}

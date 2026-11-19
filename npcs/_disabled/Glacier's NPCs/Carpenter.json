@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Forester", "Lumberjack", "Cactus Cultivator"],
+        ["Villager (Male)", "Villager (Female)", "Villager (Snow Male)", "Villager (Snow Female)", "Villager (Desert Male)", "Villager (Desert Female)"],
+        "Others"
+    ],
+    "biome_priority": [
+        ["Desert"],
+        ["Forest", "Snow"],
+        "Others",
+        ["Underground"]
+    ]
+}

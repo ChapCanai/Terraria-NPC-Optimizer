@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Cyborg"],
+        ["Steampunker", "Princess"],
+        "Others",
+        ["Clothier"]
+    ],
+    "biome_priority": [
+        ["Snow"],
+        ["Ocean"],
+        "Others",
+        ["Underground"]
+    ]
+}

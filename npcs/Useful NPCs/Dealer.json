@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Nurse"],
+        ["Builder", "Princess"],
+        "Others",
+        ["Arms Dealer"]
+    ],
+    "biome_priority": [
+        ["Jungle", "Forest"],
+        "Others",
+        ["Desert", "Ocean"]
+    ]
+}

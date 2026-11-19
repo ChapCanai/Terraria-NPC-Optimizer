@@ -1,0 +1,11 @@
+{
+    "npc_priority": [
+        ["Guard (Wood)", "Guard (Boreal)", "Guard (Copper)", "Guard (Tin)", "Guard (Iron)", "Guard (Lead)", "Cultivator"],
+        ["Dye Trader", "Arms Dealer", "Steampunker", "Carpenter", "Quarrier (Sand)", "Villager (Desert Male)", "Villager (Desert Female)"],
+        "Others"
+    ],
+    "biome_priority": [
+        ["Desert"],
+        "Others"
+    ]
+}

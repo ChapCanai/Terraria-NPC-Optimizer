@@ -1,0 +1,12 @@
+{
+    "npc_priority": [
+        ["Guide", "Zoologist", "Princess"],
+        "Others",
+        ["Old Champion"]
+    ],
+    "biome_priority": [
+        ["Forest", "Jungle", "Desert", "Snow"],
+        "Others",
+        ["Ocean"]
+    ]
+}

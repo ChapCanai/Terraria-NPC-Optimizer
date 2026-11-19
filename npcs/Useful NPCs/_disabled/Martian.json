@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Hephaestus"],
+        ["Cyborg", "Princess"],
+        "Others",
+        ["Dryad"]
+    ],
+    "biome_priority": [
+        ["Snow"],
+        "Others",
+        ["Desert"]
+    ]
+}

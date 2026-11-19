@@ -1,0 +1,11 @@
+{
+    "npc_priority": [
+        ["Guard (Wood)", "Guard (Boreal)", "Guard (Lead)"],
+        ["Merchant", "Guide", "Villager (Male)", "Villager (Female)", "Villager (Snow Male)", "Villager (Snow Female)"],
+        "Others"
+    ],
+    "biome_priority": [
+        ["Forest", "Desert", "Snow", "Jungle", "Ocean", "Hallow", "Glowing Mushrooms", "Underground"],
+        "Others"
+    ]
+}

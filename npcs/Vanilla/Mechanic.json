@@ -1,0 +1,15 @@
+{
+    "npc_priority": [
+        ["Goblin Tinkerer"],
+        ["Cyborg", "Guard (Boreal)", "Princess"],
+        "Others",
+        ["Arms Dealer"],
+        ["Clothier"]
+    ],
+    "biome_priority": [
+        ["Snow"],
+        "Others",
+        ["Underground", "Salt Flats"],
+        ["Dungeon"]
+    ]
+}

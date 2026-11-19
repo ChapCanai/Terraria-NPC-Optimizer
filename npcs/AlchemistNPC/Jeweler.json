@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Merchant"],
+        ["Tax Collector", "Princess"],
+        "Others",
+        ["Party Girl"]
+    ],
+    "biome_priority": [
+        ["Forest"],
+        ["Jungle"],
+        "Others",
+        ["Snow"]
+    ]
+}

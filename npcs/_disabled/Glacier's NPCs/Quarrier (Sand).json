@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Villager (Desert Male)", "Villager (Desert Female)"],
+        ["Guard (Wood)", "Guard (Boreal)", "Guard (Cactus)", "Guard (Copper)", "Guard (Tin)", "Guard (Iron)", "Guard (Lead)"],
+        "Others"
+    ],
+    "biome_priority": [
+        ["Desert"],
+        ["Underground", "Ocean"],
+        "Others",
+        ["Snow", "Jungle"]
+    ]
+}

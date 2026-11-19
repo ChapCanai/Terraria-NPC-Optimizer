@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Arms Dealer"],
+        ["Witch Doctor", "Princess"],
+        "Others",
+        ["Party Girl"]
+    ],
+    "biome_priority": [
+        ["Snow"],
+        "Others",
+        ["Ocean"]
+    ]
+}

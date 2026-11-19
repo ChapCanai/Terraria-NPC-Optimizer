@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Dryad", "Guide", "Princess"],
+        "Others",
+        ["Nurse"],
+        ["Truffle"]
+    ],
+    "biome_priority": [
+        ["Jungle", "Savanna"],
+        "Others",
+        ["Hallow"]
+    ]
+}

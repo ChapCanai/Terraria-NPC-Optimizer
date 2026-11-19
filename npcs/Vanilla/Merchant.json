@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Villger (Male)", "Villger (Female)"],
+        ["Golfer", "Nurse", "Princess", "Farmer", "Rancher", "Forester", "Guard (Lead)", "Guard (Iron)", "Guard (Copper)", "Guard (Tin)", "Guard (Wood)"],
+        "Others",
+        ["Tax Collector"],
+        ["Angler"]
+    ],
+    "biome_priority": [
+        ["Forest"],
+        "Others",
+        ["Desert", "Salt Flats", "Savanna"]
+    ]
+}

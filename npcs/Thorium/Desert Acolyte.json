@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Nurse", "Spiritualist", "Princess"],
+        "Others",
+        ["Pirate"],
+        ["Goblin Tinkerer", "Witch Doctor", "Weapon Master"]
+    ],
+    "biome_priority": [
+        ["Desert"],
+        "Others",
+        ["Jungle"]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Angler"],
+        ["Tavernkeep", "Princess"],
+        "Others",
+        ["Stylist", "Fisherman"],
+        ["Guide"]
+    ],
+    "biome_priority": [
+        ["Ocean"],
+        "Others",
+        ["Underground"]
+    ]
+}

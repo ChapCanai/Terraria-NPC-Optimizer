@@ -1,0 +1,15 @@
+{
+    "npc_priority": [
+        ["Dryad", "Zoologist"],
+        ["Witch Doctor", "Princess"],
+        "Others",
+        ["Arms Dealer"],
+        ["Demolitionist"]
+    ],
+    "biome_priority": [
+        ["Jungle"],
+        ["Forest"],
+        "Others",
+        ["Ocean"]
+    ]
+}

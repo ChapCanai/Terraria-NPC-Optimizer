@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Tavernkeep"],
+        ["Mechanic", "Enchanter", "Bandit", "Princess"],
+        "Others",
+        ["Goblin Tinkerer", "Arms Dealer"]
+    ],
+    "biome_priority": [
+        ["Underground"],
+        "Others",
+        ["Ocean"]
+    ]
+}

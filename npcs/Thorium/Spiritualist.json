@@ -1,0 +1,12 @@
+{
+    "npc_priority": [
+        ["Stylist", "Witch Doctor", "Princess"],
+        "Others",
+        ["Weapon Master", "Tax Collector"]
+    ],
+    "biome_priority": [
+        ["Hallow"],
+        "Others",
+        ["Underground"]
+    ]
+}

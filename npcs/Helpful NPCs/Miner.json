@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Tavernkeep", "Demolitionist"],
+        ["Goblin Tinkerer", "Princess"],
+        "Others",
+        ["Stylist"]
+    ],
+    "biome_priority": [
+        ["Underground"],
+        "Others",
+        ["Ocean"]
+    ]
+}

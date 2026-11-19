@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Demolitionist"],
+        ["Goblin Tinkerer", "Adventurer", "Princess"],
+        "Others",
+        ["Guide"],
+        ["Dye Trader"]
+    ],
+    "biome_priority": [
+        ["Hallow"],
+        "Others",
+        ["Snow", "Salt Flats"]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Clothier", "Zoologist", "Princess", "Farmer", "Rancher", "Forester", "Guard (Lead)", "Guard (Iron)", "Guard (Copper)", "Guard (Tin)", "Guard (Wood)"],
+        "Others",
+        ["Steampunker"],
+        ["Painter"]
+    ],
+    "biome_priority": [
+        ["Spawn"],
+        ["Forest"],
+        "Others",
+        ["Ocean"]
+    ]
+}

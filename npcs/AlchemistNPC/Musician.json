@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Party Girl"],
+        ["Wizard", "Princess"],
+        "Others",
+        ["Goblin Tinkerer"]
+    ],
+    "biome_priority": [
+        ["Hallow"],
+        ["Underground"],
+        "Others",
+        ["Snow"]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Angler"],
+        ["Truffle", "Mechanic", "Fisherman 2", "Princess"],
+        "Others",
+        ["Pirate", "Nurse"]
+    ],
+    "biome_priority": [
+        ["Ocean"],
+        ["Forest"],
+        "Others",
+        ["Desert"]
+    ]
+}

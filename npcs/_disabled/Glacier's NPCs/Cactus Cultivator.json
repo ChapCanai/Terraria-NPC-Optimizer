@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Carpenter", "Guard (Cactus)"],
+        ["Villager (Desert Male)", "Villager (Desert Female)"],
+        "Others"
+    ],
+    "biome_priority": [
+        ["Desert"],
+        ["Jungle"],
+        "Others",
+        ["Snow", "Underground"]
+    ]
+}

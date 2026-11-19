@@ -1,0 +1,16 @@
+{
+    "npc_priority": [
+        ["Mechanic"],
+        ["Witch Doctor", "Princess"],
+        "Others",
+        ["Wizard"],
+        ["Tax Collector"]
+    ],
+    "biome_priority": [
+        ["Snow"],
+        ["Forest"],
+        "Others",
+        ["Desert"],
+        ["Hallow"]
+    ]
+}

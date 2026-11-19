@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Arms Dealer", "Painter", "Princess", "Guard (Cactus)", "Villager (Desert Male)", "Villager (Desert Female)"],
+        "Others",
+        ["Steampunker"],
+        ["Pirate"]
+    ],
+    "biome_priority": [
+        ["Desert", "Salt Flats", "Savanna"],
+        "Others",
+        ["Forest"]
+    ]
+}

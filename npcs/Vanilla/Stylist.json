@@ -1,0 +1,14 @@
+{
+    "npc_priority": [
+        ["Dye Trader"],
+        ["Pirate", "Princess"],
+        "Others",
+        ["Tavernkeep"],
+        ["Goblin Tinkerer"]
+    ],
+    "biome_priority": [
+        ["Ocean"],
+        "Others",
+        ["Snow", "Salt Flats", "Savanna"]
+    ]
+}

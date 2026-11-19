@@ -1,0 +1,12 @@
+{
+    "npc_priority": [
+        ["Demolitionist"],
+        ["Weapon Master", "Princess"],
+        "Others",
+        ["Tracker"]
+    ],
+    "biome_priority": [
+        ["Underground"],
+        "Others"
+    ]
+}

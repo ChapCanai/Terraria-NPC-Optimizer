@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Villager (Snow Male)", "Villager (Snow Female)"],
+        ["Forester", "Santa Claus", "Guard (Wood)", "Guard (Boreal)", "Guard (Lead)", "Guard (Iron)"],
+        "Others"
+    ],
+    "biome_priority": [
+        ["Snow"],
+        ["Forest", "Jungle"],
+        "Others",
+        ["Ocean", "Desert"]
+    ]
+}

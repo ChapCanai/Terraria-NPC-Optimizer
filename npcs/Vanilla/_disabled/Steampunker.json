@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Cyborg"],
+        ["Painter", "Guard (Cactus)", "Villager (Desert Male)", "Villager (Desert Female)", "Princess"],
+        "Others",
+        ["Party Girl", "Wizard", "Dryad"]
+    ],
+    "biome_priority": [
+        ["Desert"],
+        "Others",
+        ["Jungle"]
+    ]
+}

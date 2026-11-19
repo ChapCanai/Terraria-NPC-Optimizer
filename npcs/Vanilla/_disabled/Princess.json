@@ -1,0 +1,9 @@
+{
+    "npc_priority": [
+        "Others"
+    ],
+    "biome_priority": [
+        ["Hallow"],
+        "Others"
+    ]
+}

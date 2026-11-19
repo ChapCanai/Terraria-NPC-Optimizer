@@ -1,0 +1,13 @@
+{
+    "npc_priority": [
+        ["Fisherman"],
+        ["Party Girl", "Demolitionist", "Tax Collector", "Princess"],
+        "Others",
+        ["Tavernkeep"]
+    ],
+    "biome_priority": [
+        ["Ocean"],
+        "Others",
+        ["Desert", "Salt Flats", "Savanna"]
+    ]
+}
