@@ -4,9 +4,7 @@ from pathlib import Path
 from ortools.sat.python import cp_model
 from itertools import combinations
 
-
-# ============================================================
-# SETTINGS
+# SETTINGS ============================================================
 
 BASE_FOLDER = Path(__file__).parent
 
@@ -15,9 +13,7 @@ PYLON_FOLDER = BASE_FOLDER / "pylons"
 
 MAX_OPTIMIZER_SECONDS = 120
 
-
-# ============================================================
-# JSON LOADER
+# JSON LOADER ============================================================
 
 def load_database(folder):
     database = {}
@@ -59,9 +55,7 @@ def load_database(folder):
 NPCS = load_database(NPC_FOLDER)
 PYLONS = load_database(PYLON_FOLDER)
 
-
-# ============================================================
-# PRIORITY SYSTEM
+# PRIORITY SYSTEM ============================================================
 
 def normalize_groups(priority_list):
 
@@ -122,17 +116,14 @@ def priority_score(target, priority_list):
 
     return 0
 
-
-# ============================================================
-# HAPPINESS SCORING
+# HAPPINESS SCORING ============================================================
 
 def biome_score(npc, pylon):
 
     preferences = NPCS[npc]["biome_priority"]
 
     # Multiple biome tags are supported.
-    # Only the best matching tag counts.
-
+    # Only the worst matching tag counts as deterrent
     scores = [
         priority_score(biome, preferences)
         for biome in PYLONS[pylon]["biome_tags"]
@@ -161,9 +152,7 @@ def relationship_score(npc_a, npc_b):
 
     return score_a + score_b
 
-
-# ============================================================
-# DATA VALIDATION
+# DATA VALIDATION ============================================================
 
 def validate_data():
     
@@ -204,10 +193,8 @@ def validate_data():
             raise ValueError(
                 f"{pylon} needs at least one biome tag."
             )
-        
 
-# ============================================================
-# OPTIMIZATION ENGINE
+# OPTIMIZATION ENGINE ============================================================
 
 def optimize():
 
@@ -218,10 +205,7 @@ def optimize():
 
     model = cp_model.CpModel()
 
-    # --------------------------------------------------------
     # NPC assignment variables
-    # --------------------------------------------------------
-
     x = {}
 
     for npc in npcs:
@@ -232,10 +216,7 @@ def optimize():
                 f"x_{npc}_{pylon}"
             )
 
-    # --------------------------------------------------------
     # NPC pair variables
-    # --------------------------------------------------------
-
     y = {}
 
     for a, b in combinations(npcs, 2):
@@ -249,7 +230,6 @@ def optimize():
             y[(a, b, pylon)] = var
 
             # Pair exists only if both NPCs live there.
-
             model.add(
                 var <= x[(a, pylon)]
             )
@@ -266,10 +246,7 @@ def optimize():
                 )
             )
 
-    # --------------------------------------------------------
     # Constraint 1: Every NPC has exactly one home.
-    # --------------------------------------------------------
-
     for npc in npcs:
 
         model.add(
@@ -279,10 +256,7 @@ def optimize():
             ) == 1
         )
 
-    # --------------------------------------------------------
     # Constraint 2: Distribute NPCs as evenly as possible.
-    # --------------------------------------------------------
-
     total_npcs = len(npcs)
     total_pylons = len(pylons)
 
@@ -299,14 +273,10 @@ def optimize():
         model.add(residents >= min_residents)
         model.add(residents <= max_residents)
 
-    # --------------------------------------------------------
     # Constraint 3: Maximize total happiness.
-    # --------------------------------------------------------
-
     objective = []
 
     # Individual biome preferences.
-
     for npc in npcs:
 
         for pylon in pylons:
@@ -318,7 +288,6 @@ def optimize():
             )
 
     # Relationships between NPCs.
-
     for a, b in combinations(npcs, 2):
 
         for pylon in pylons:
@@ -331,10 +300,7 @@ def optimize():
 
     model.maximize(sum(objective))
 
-    # --------------------------------------------------------
     # Run solver.
-    # --------------------------------------------------------
-
     solver = cp_model.CpSolver()
 
     solver.parameters.max_time_in_seconds = MAX_OPTIMIZER_SECONDS
@@ -350,9 +316,7 @@ def optimize():
         print("No valid arrangement found.")
         return
 
-    # ========================================================
-    # 7. RESULTS
-    # ========================================================
+    # 7. RESULTS ========================================================
 
     print("\n" + "=" * 55)
     print("TERRARIA NPC OPTIMIZER")
@@ -410,7 +374,6 @@ def optimize():
         )
 
         # Show relationships between residents.
-
         print("Relationships:")
 
         for a, b in combinations(residents, 2):
@@ -422,9 +385,7 @@ def optimize():
 
     print("\n" + "=" * 55)
 
-
-# ============================================================
-# MAIN
+# MAIN ============================================================
 
 if __name__ == "__main__":
     optimize()
