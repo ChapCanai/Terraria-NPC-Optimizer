@@ -8,6 +8,6 @@
     "biome_priority": [
         ["Desert"],
         "Others",
-        ["Jungle"]
+        ["Jungle", "Salt Flats"]
     ]
 }

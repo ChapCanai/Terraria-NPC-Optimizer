@@ -6,8 +6,8 @@
         ["Wizard"]
     ],
     "biome_priority": [
-        ["Snow"],
+        ["Snow", "Salt Flats"],
         "Others",
-        ["Jungle"]
+        ["Jungle", "Savanna"]
     ]
 }

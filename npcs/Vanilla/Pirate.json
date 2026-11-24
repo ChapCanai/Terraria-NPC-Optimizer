@@ -1,9 +1,9 @@
 {
     "npc_priority": [
         ["Angler"],
-        ["Tavernkeep", "Princess"],
+        ["Tavernkeep", "Adventurer", "Gambler", "Princess"],
         "Others",
-        ["Stylist", "Fisherman"],
+        ["Stylist", "Fisherman", "Bandit"],
         ["Guide"]
     ],
     "biome_priority": [

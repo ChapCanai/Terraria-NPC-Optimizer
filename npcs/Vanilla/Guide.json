@@ -6,7 +6,6 @@
         ["Painter"]
     ],
     "biome_priority": [
-        ["Spawn"],
         ["Forest"],
         "Others",
         ["Ocean"]

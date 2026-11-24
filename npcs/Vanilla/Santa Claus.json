@@ -1,0 +1,12 @@
+{
+    "npc_priority": [
+        "Others",
+        ["Tax Collector"]
+    ],
+    "biome_priority": [
+        ["Presents"],
+        ["Snow"],
+        "Others",
+        ["Desert", "Savanna"]
+    ]
+}

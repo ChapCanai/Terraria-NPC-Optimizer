@@ -7,8 +7,6 @@
         ["Stylist"]
     ],
     "biome_priority": [
-        ["Underground"],
-        "Others",
-        ["Jungle", "Savanna"]
+        "Spawn"
     ]
 }
